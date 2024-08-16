@@ -35,7 +35,7 @@ function Hero() {
           <br />
         <br />
         <br />
-        <h1 className="HeroHeader">Manage Oracle</h1>
+        <h1 className="HeroHeader">Manage Private Oracle</h1>
         <p className="HeroInfoBox" style={{
               marginBottom: '-50px'
             }}>Input your private oracle address to manage:</p>
