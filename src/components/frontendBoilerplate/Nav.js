@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 //Assets
-import { ReactComponent as Tellor } from '../../assets/signum_logo.svg'
+import { ReactComponent as Tellor } from '../../assets/signum_logo.png'
 //Components
 import WalletConnect from './WalletConnect'
 //Styles
