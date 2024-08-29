@@ -25,22 +25,22 @@ export default function HowItWorks() {
           <br></br>
           <p className='mainText' >Still have questions? Join our{' '}
             <a 
-              href=""
+              href="https://t.me/GoSignum"
               target="_blank"
               rel="noopener noreferrer"
             >
-            Discord!
+            Telegram!
             </a>
           </p>
         </div>
       </div>
      
         <div className='infoContainer'>
-          <a className='infoLink' target="_blank" rel="noreferrer" href="">
+          <a className='infoLink' target="_blank" rel="noreferrer" href="https://docs.signum.run">
             <button className='infoButtons'>Docs</button>
           </a>
-          <a className='infoLink' target="_blank" rel="noreferrer" href="">
-            <button className='infoButtons'>Discord</button>
+          <a className='infoLink' target="_blank" rel="noreferrer" href="https://t.me/GoSignum">
+            <button className='infoButtons'>Telegram</button>
           </a>
         </div>
     </div>
