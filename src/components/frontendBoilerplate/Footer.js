@@ -19,7 +19,7 @@ const links = [
 function Footer() {
   return (
     <div className="Footer">
-      <p className="FooterText">&copy; 2024 Signum, Inc.</p>
+      <p className="FooterText">&copy; 2024 SIGNUM</p>
 
       <nav className="FooterNav">
         {links.map((link, i) => 
