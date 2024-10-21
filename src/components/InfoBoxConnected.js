@@ -24,7 +24,7 @@ function InfoBoxConnected() {
     : `You hold 0 DAI`}
           </p>
           <br />
-          <p>Creation Fee: 1000 DAI</p>
+          <p>Creation Fee: 0 DAI</p>
           
         </div>
       )}

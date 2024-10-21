@@ -1,4 +1,5 @@
 import minABI from './minimumABI.json'
+import factoryABI from './privateFactoryABI.json'
 import { digitToMonth } from './time'
 
 //Globals
@@ -29,6 +30,7 @@ export const autopayOptest = '0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0'
 export const autopayArbone = '  0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb'
 export const autopayArbtest = '0x60cBf3991F05a0671250e673Aa166e9D1A0C662E'
 export const autopayPulsechain = '0x48C7A06cb36F6f0d575e083A4e844Ba08890e452'
+export const privateFactory = '0x58EB4000F4870A6Aa8188f8Ec5979bde36ED5D3A'
 
 
 export const truncateAddr = (addr) => {
@@ -49,8 +51,8 @@ export const getAssetBalances = async (web3, address, chainId) => {
   const trbContractOptest = new web3.eth.Contract(minABI, tellorAddressOptest)
   const trbContractArbone = new web3.eth.Contract(minABI, tellorAddressArbone)
   const trbContractArbtest = new web3.eth.Contract(minABI, tellorAddressArbtest)
-  const trbContractPulsechain = new web3.eth.Contract(minABI, tellorAddressPulsechain)
-  const daiContractPulsechain = new web3.eth.Contract(minABI, daiAddressPulsechain);
+  const daiContractPulsechain = new web3.eth.Contract(minABI, daiAddressPulsechain)
+  const privateFactoryPulsechain = new web3.eth.Contract(factoryABI, privateFactory)
   //Function Globals
   let chainMainTokenBalance
   let trbBalance
